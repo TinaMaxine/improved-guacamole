@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tales</title>
+    <style>
+         #bg{
+                position: absolute;
+                
+                width: 1200px;
+                height: 550px;
+                background-image: url("https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+                background-repeat: no-repeat;
+            opacity: 80%;
+            background-size:100%;
+            opacity: 60%;
+            
+            
+            }
+        html{
+           
+            /* background-position: center; */
+            background-repeat: no-repeat;
+            background-size: 100%;
+            /* width: 500px;
+            height: 300px;
+            color: white;
+            margin-left: 0%;
+            margin-right: 50%; */
+            /* opacity: 0.5; */
+        }
+        /* h1{
+            color: white;
+            animation-name: example1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        } */
+        h1,h2{ position: relative;
+            color: rgba(255, 255, 255, 0.493);
+            animation-name: example2;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+
+        }
+        /* @keyframes example1{
+            from{background-color: blueviolet;}
+            to{background-color: brown;}
+        } */
+        @keyframes example1 {
+                0%   {color: white;}
+                0%   {color: white;}
+                55%  {color: rgb(215, 215, 136);}
+                70%  {color: rgb(229, 245, 2);}
+                100% {color: orange;}
+            }
+            @keyframes example2 {
+                0%   {color: white;}
+                25%   {color: rgb(214, 220, 35);}
+                55%  {color: rgb(123, 206, 7);}
+                70%  {color: rgb(223, 94, 59);}
+                100% {color: rgb(30, 147, 183);}
+            }
+            .list{position: relative;
+                top: 100px;
+                font-size: 23.5px;
+                color: rgb(255, 251, 251);
+            }
+            #map{ position: relative;
+            height: 800px;
+            width: 800px;
+    left: 1200px;
+top: -450px;}
+#video{
+    
+    position: relative;
+    top: -650px;
+    /* border: 4px solid red; */
+    height: 300px;
+    width: 400px;
+    /* border-radius: 40%; */
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+#playlist{
+    height: 300px;
+    width: 400px;
+    background-image: url(/Assignment/youtube\ bg.jpg);
+    position: relative;
+    top: -820px;
+    left: 500px;
+    font-size: 40px;
+    color: red;
+    background-size: cover;
+}
+           
+ </style>
+ </head>
+ <body>
+     <div id="bg"></div>
+     <h1 style="color:orange ;">Welcome to my travel tales</h1>
+     <div class="intro">
+         <h2>Italy – A Slice Of Medieval Life</h2> 
+     
+     <p  style="color: rgb(0, 0, 0); position: relative; font-size: 23.5px;">During this time, I was thrilled to find near-empty beaches. The Alba White Truffle Festival and the popular EuroChocolate <br> from Perugia attract a large majority of foodies from all over the world.
+         My first foray into Italy was Lugano. Though a very <br> fancy part of the country, what impressed me most was the food :) Due to time constraints, I could not venture much into the <br> country until last year, when I planned a weekend getaway to Naples. Man, was I hooked!
+         Home to the world’s best coffee,<br> pizza, pasta and cheese, all you need to pack up on your trip to Napoli is an empty and stretchy belly. When you are <br> travelling, make sure to pack a lot of woolens and bring your near and dear ones to this beautiful destination.
+    </p>
+    </div>
+<div class="list">
+    <ul>
+    <li>Places to visit in Italy: Rome, Venice, Milan, Florence, Naples, Siena, Amalfi</li>
+    <li>Things to shop: Handmade sandals</li>
+    <li>Weather in December: It is likely to be raining where it is not snowing. Make sure you carry woolens.</li>
+    <li>How to reach: Take a direct flight from New Delhi to Leonardo da Vinci–Fiumicino Airport in Rome, Italy that takes <br> about 8 hours in the air.</li>
+    </div>
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177477.31598779527!2d8.851859434220424!3d45.969600476063555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47842e8a9ab83885%3A0x86d13125d560eb81!2sLake%20Lugano!5e0!3m2!1sen!2sin!4v1667914772381!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div >
+        <iframe  id="video"  src="https://www.youtube.com/embed/2-apdmEOhRE" title="Lake Lugano (Switzerland) in 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="playlist" ><a href="https://www.youtube.com/watch?v=ZaAOT6wMp-g&list=PL6E-AbQdSafchuLXiV8NSdkIO5ziHl4Ro">My Blog Playlist</a></div>
+</body>
+</html>
