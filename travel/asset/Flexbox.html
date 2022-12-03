@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-container{
+            width:100%;
+            min-height: 300px;
+            display: flex;
+            background-color: aqua;
+            align-items:center;
+            justify-content:center;
+            flex-direction: row;
+        /* flex-flow: wrap; */
+        /* align-self: center; */
+            /* flex-wrap:wrap;  */
+            /* flex-flow:space-around; */
+
+        }
+        .child-container{
+            font-size: medium;
+            color: chartreuse;
+            border: 1px solid black;
+            margin: 30px;
+            background-color: coral;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            /* box-shadow: 10px; */
+        }
+        .item3{
+            order: -4;
+        }
+        .item2{
+            order: -1;
+        }
+        .item1{
+            order:1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="child-container item1">Item 1</div>
+        <div class="child-container item2">Item 2</div>
+        <div class="child-container item3">Item 3</div>
+        <div class="child-container item4">Item 4</div>
+    </div>
+</body>
+</html>
